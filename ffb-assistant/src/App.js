@@ -1,11 +1,13 @@
-import './App.css';
+import React from 'react';
+import TeamInput from './components/TeamInput';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
+    <div>
       <h1>Fantasy Football Assistant</h1>
+      <TeamInput />
     </div>
   );
-}
+};
 
 export default App;
